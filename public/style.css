@@ -1,0 +1,75 @@
+/* Chat messages */
+.chat-messages {
+    padding: 5px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.sender {
+    max-width: 300px;
+    background: #e9eafd;
+    color: #787986;
+    margin-left:auto;
+    margin-top: 10px;
+}
+
+#receiver {
+    background-color: #912828;
+    border-radius: 10px;
+    float: right;
+}
+
+/* Join notification */
+.join-notification {
+    font-style: italic;
+    color: #888;
+}
+
+#chat-window{
+  margin-left: 20vw;
+    width: 800px;
+    height: 600px;
+    color: #e9eafd;
+    font-weight: bolder;
+    font-size: 20px;
+    max-width: 90%;
+    background: #10939c;
+    box-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0,0,0, 0.5) ;
+    
+}
+#chat-messages{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px; 
+}
+#message-input{
+    color: #10939c;
+    width: 83%;
+    border: none;
+    padding: 20px;
+    font-size:16px;
+    outline:none;
+    background: #FBFBFB;
+}
+
+#send-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #send-btn:hover {
+    background-color: #45a049; /* Darker Green */
+  }
